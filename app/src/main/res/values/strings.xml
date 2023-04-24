@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PokedexProva</string>
+    <string name="login">Login</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="usuario">Usuário</string>
+    <string name="pokedex">TODO</string>
+    <string name="mostrarLogin">Login:</string>
+    <string name="mostrarSenha">Senha:</string>
+</resources>
