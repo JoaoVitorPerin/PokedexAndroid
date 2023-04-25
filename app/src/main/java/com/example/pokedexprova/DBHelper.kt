@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
 class DBHelper(context: Context?) :
-    SQLiteOpenHelper(context, "Login.db", null, 1) {
+    SQLiteOpenHelper(context, "PokedexProva.db", null, 1) {
     override fun onCreate(MyDB: SQLiteDatabase) {
         MyDB.execSQL("create Table users(username TEXT primary key, password TEXT)")
     }
