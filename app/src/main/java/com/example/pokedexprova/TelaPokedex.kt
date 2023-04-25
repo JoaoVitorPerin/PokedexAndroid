@@ -10,13 +10,16 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.pokedexprova.api.PokemonRepository
 
 class TelaPokedex : AppCompatActivity() {
-
     lateinit var recyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tela_pokedex)
-
+        var botaoTipo: Button = findViewById<Button>(R.id.botaoTipos)
+        botaoTipo.setOnClickListener({
+            val teste = Intent(this@TelaPokedex, TelaTipos::class.java)
+            startActivity(teste)
+        })
         recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
         Thread(Runnable {
