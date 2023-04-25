@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/image_removebg_preview__10_" />
 
     <EditText
-        android:id="@+id/usuario"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="244dp"
@@ -41,8 +41,8 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/usuario"
-        app:layout_constraintTop_toBottomOf="@+id/usuario"
+        app:layout_constraintEnd_toEndOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/login"
         tools:ignore="LabelFor" />
 
     <Button
@@ -52,16 +52,18 @@
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         android:text="Entrar"
+        android:backgroundTint="#950000"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/botaoCadastro"
-        app:layout_constraintStart_toStartOf="@+id/botaoCadastro" />
+        app:layout_constraintBottom_toTopOf="@+id/botaoTelaCadastro"
+        app:layout_constraintStart_toStartOf="@+id/botaoTelaCadastro" />
 
     <Button
-        android:id="@+id/botaoCadastro"
+        android:id="@+id/botaoTelaCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="89dp"
         android:text="@string/cadastro"
+        android:backgroundTint="#950000"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,8 +77,8 @@
         android:layout_height="wrap_content"
         android:text="@string/mostrarLogin"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/usuario"
-        app:layout_constraintStart_toStartOf="@+id/usuario" />
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintStart_toStartOf="@+id/login" />
 
     <TextView
         android:id="@+id/textView2"

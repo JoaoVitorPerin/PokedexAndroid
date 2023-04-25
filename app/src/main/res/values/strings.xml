@@ -6,4 +6,7 @@
     <string name="pokedex">TODO</string>
     <string name="mostrarLogin">Login:</string>
     <string name="mostrarSenha">Senha:</string>
+    <string name="cadastrar_se">Cadastrar-se:</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="confirmar_senha">Confirmar senha:</string>
 </resources>
